@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: 'Inconsolata'
+
+}
+
+body {
+    border: none;    
+    background-color: rgb(49, 55, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    margin: 2px;
+}
+input[type="text"]{
+    
+    width: calc(100% - 2px);
+    height: 60px;
+    font-size: 32px;
+    margin: 0;
+    text-align: right;
+    
+}
+#visor{
+    color: rgb(129, 120, 120);
+    font-size: 22px;
+    border-radius: 3px 3px 0px 0px;
+    
+}
+
+#visorResult{
+    height: 90px;
+    border-radius: 0px 0px 3px 3px;
+    font-size: 50px;
+    
+}
+
+input[type=button]{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(92, 86, 86);
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+}
+div#Calculadora div{
+    display: flex;
+}
+div#Calculadora div input:nth-child(4){
+    background-color: rgb(123, 143, 103);
+}
+div#fourth input:nth-child(1){
+    background-color: rgb(216, 121, 121);
+    border-bottom-left-radius: 30px;
+}
+div#fourth input:nth-child(3){
+    background-color: rgb(62, 62, 126);
+}
+div#fourth input:nth-child(4){
+    border-bottom-right-radius: 30px;
+}
+input[type=button]:hover{
+    filter: brightness(50%);
+}
+input[type=button]:active{
+    transform: scale(0.9);
+}
+div#Calculadora{
+    box-shadow: 0 0 20px black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
